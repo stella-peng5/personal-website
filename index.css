@@ -89,6 +89,9 @@ body {
 	color: var(--nc-tx-2);
 	font-size: 1.03rem;
 	line-height: 1.5;
+
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 ::selection {
@@ -429,7 +432,8 @@ input {
 }
 
 img {
-	max-width: 100%;
+	max-width: 50%;
+	border-radius: 5px;
 }
 
 
@@ -438,5 +442,5 @@ img {
 }
 
 .schaf:hover {
-	transform: translateX(800px) rotate(380deg);
+	transform: translateX(800px) rotate(200deg);
 }
